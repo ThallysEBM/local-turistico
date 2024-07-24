@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+:root {
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+
+    --backgroud-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+}
+
+body {
+    background-color: var(--backgroud-default);
+    padding: 5.5rem 5rem;
+
+}
+#hero, #destiny, #list, footer {
+    width: 70rem;
+    margin: auto;  
+}
+
+.headline {
+    font-size: 1rem;
+    color: var(--text-headline);
+    font-weight: bold;
+}
+h1 {
+    font-size: 2rem;
+    color: var(--text-primary);
+    font-weight: bold;
+}
+img {
+    border-radius: 28px;
+
+}
+
+#hero img {
+    margin-top:  40px;
+}
+.description {
+    font-size: 12px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+#destiny {
+    margin: 4rem auto;
+}
+.title {
+    font-size: 2rem;
+    color: var(--text-primary);
+    font-weight: bold;
+} 
+p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-top: 1rem;
+
+}
+.card {
+    margin: 2rem 0;
+}
+.card ul {
+    margin-top: 1rem;
+}
+.card ul li {
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
+.text-bottom {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 70rem;
+    margin: 2.5rem auto;
+
+}
+footer p {
+    text-align: center;
+}
+
+
+.historia {
+    color: var(--accent-blue);
+}
+.casais {
+    color: var(--accent-purple);
+}
+.familia {
+    color: var(--accent-pink);
+}
+.orcamento {
+    color: var(--accent-orange);
+}
